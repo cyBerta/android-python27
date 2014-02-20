@@ -13,7 +13,7 @@
     			android:label="@string/app_name"
     			android:name="com.android.python27.ScriptApplication">
         
-    <activity 	android:name=".ScriptActivity"
+    <activity 	android:name="com.android.python27.ScriptActivity"
       			android:configChanges="keyboardHidden|orientation"
       			android:theme="@android:style/Theme.Translucent.NoTitleBar">
       
@@ -29,19 +29,19 @@
       
     </activity>
     
-    <service 	android:name="ScriptService">
+    <service 	android:name="com.android.python27.ScriptService">
     	<intent-filter>
 			<action android:name="com.android.python27.ScriptService" />
 		</intent-filter>
 	</service>
 	
-    <service 	android:name="BackgroundScriptService">
+    <service 	android:name="com.android.python27.BackgroundScriptService">
     	<intent-filter>
 			<action android:name="com.android.python27.BackgroundScriptService" />
 		</intent-filter>
 	</service>
 	
-	<service android:name=".RpcServerService" />
+	<service android:name="com.android.python27.RpcServerService" />
 	        
     <activity 	android:configChanges="keyboardHidden|orientation"
       			android:name="com.googlecode.android_scripting.activity.FutureActivity" 
@@ -52,7 +52,7 @@
       			android:name="com.android.python27.DialogActivity"/>
 
 	<activity
-     		android:name=".RpcServerLauncher"
+     		android:name="com.android.python27.RpcServerLauncher"
      		android:taskAffinity=""
      		android:theme="@android:style/Theme.Translucent.NoTitleBar">
      		<intent-filter>
