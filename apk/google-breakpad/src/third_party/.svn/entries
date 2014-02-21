@@ -1,0 +1,40 @@
+10
+
+dir
+1229
+http://google-breakpad.googlecode.com/svn/trunk/src/third_party
+http://google-breakpad.googlecode.com/svn
+
+
+
+2013-09-05T21:34:38.628871Z
+1210
+mseaborn@chromium.org
+has-props
+
+
+svn:externals
+
+
+
+
+
+
+
+
+
+
+4c0a9323-5329-0410-9bdc-e9ce6186880e
+
+curl
+dir
+
+libdisasm
+dir
+
+linux
+dir
+
+protobuf
+dir
+

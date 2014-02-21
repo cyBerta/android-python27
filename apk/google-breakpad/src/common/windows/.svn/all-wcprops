@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1189/trunk/src/common/windows
+END
+common_windows.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1167/trunk/src/common/windows/common_windows.gyp
+END
+guid_string.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/255/trunk/src/common/windows/guid_string.cc
+END
+guid_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/255/trunk/src/common/windows/guid_string.h
+END
+http_upload.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1189/trunk/src/common/windows/http_upload.cc
+END
+http_upload.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/743/trunk/src/common/windows/http_upload.h
+END
+string_utils.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/710/trunk/src/common/windows/string_utils.cc
+END
+pdb_source_line_writer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1167/trunk/src/common/windows/pdb_source_line_writer.cc
+END
+dia_util.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1167/trunk/src/common/windows/dia_util.cc
+END
+pdb_source_line_writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1167/trunk/src/common/windows/pdb_source_line_writer.h
+END
+omap_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1167/trunk/src/common/windows/omap_internal.h
+END
+omap_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1167/trunk/src/common/windows/omap_unittest.cc
+END
+dia_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1167/trunk/src/common/windows/dia_util.h
+END
+omap.cc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1167/trunk/src/common/windows/omap.cc
+END
+omap.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1167/trunk/src/common/windows/omap.h
+END
+string_utils-inl.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/710/trunk/src/common/windows/string_utils-inl.h
+END

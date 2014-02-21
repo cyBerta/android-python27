@@ -1,0 +1,83 @@
+10
+
+dir
+1229
+http://google-breakpad.googlecode.com/svn/trunk/src/client/windows
+http://google-breakpad.googlecode.com/svn
+
+
+
+2013-06-06T17:20:34.160557Z
+1191
+cdn@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+4c0a9323-5329-0410-9bdc-e9ce6186880e
+
+common
+dir
+
+crash_generation
+dir
+
+handler
+dir
+
+build
+dir
+
+sender
+dir
+
+unittests
+dir
+
+tests
+dir
+
+breakpad_client.gyp
+file
+
+
+
+
+2013-11-05T00:14:47.688165Z
+55eaefb3bf471561fae0f3cb945fd340
+2011-10-20T13:18:59.233305Z
+872
+mark@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2501
+

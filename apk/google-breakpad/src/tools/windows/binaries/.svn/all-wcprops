@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1177/trunk/src/tools/windows/binaries
+END
+symupload.exe
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1177/trunk/src/tools/windows/binaries/symupload.exe
+END
+dump_syms.exe
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1177/trunk/src/tools/windows/binaries/dump_syms.exe
+END

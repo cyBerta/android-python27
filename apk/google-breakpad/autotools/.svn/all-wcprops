@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/973/trunk/autotools
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/506/trunk/autotools/ltmain.sh
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/973/trunk/autotools/config.sub
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/255/trunk/autotools/install-sh
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/255/trunk/autotools/depcomp
+END
+compile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/709/trunk/autotools/compile
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/255/trunk/autotools/missing
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/973/trunk/autotools/config.guess
+END
