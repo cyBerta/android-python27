@@ -5,7 +5,10 @@
   			android:versionName="1.0"
   			android:installLocation="internalOnly"
   			xmlns:android="http://schemas.android.com/apk/res/android">
- 
+
+    <uses-permission android:name="android.permission.INTERNET" />
+  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
   <uses-sdk     android:minSdkVersion="17"
       			android:targetSdkVersion="17"
       />
@@ -34,11 +37,11 @@
             android:label="@string/title_activity_dashboard"
             android:uiOptions="splitActionBarWhenNarrow" >
 
-            <intent-filter android:label="@string/app_name">
+     <!--        <intent-filter android:label="@string/app_name">
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>  -->
         </activity>
         <activity
             android:name="se.leap.bitmaskclient.ConfigurationWizard"
@@ -65,7 +68,7 @@
       			android:configChanges="keyboardHidden|orientation"
       			android:theme="@android:style/Theme.Translucent.NoTitleBar">
       
-      <intent-filter>
+      <intent-filter android:label="@string/app_name">
         <action		android:name="android.intent.action.MAIN" />
         <category	android:name="android.intent.category.LAUNCHER" />
       </intent-filter>

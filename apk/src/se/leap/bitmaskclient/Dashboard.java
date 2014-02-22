@@ -20,6 +20,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.android.python27.R;
+import com.android.python27.ScriptActivity;
+
 import se.leap.bitmaskclient.ProviderAPIResultReceiver.Receiver;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -224,6 +226,12 @@ public class Dashboard extends Activity implements LogInDialog.LogInDialogInterf
 			return true;
 		case R.id.logout_button:
 			logOut();
+			return true;
+		case R.id.run_python:
+			Intent scriptIntent = new Intent(this, ScriptActivity.class);
+			scriptIntent.putExtra(ScriptActivity.run_service, true);
+			startActivity(scriptIntent);
+			buildDashboard();
 			return true;
 		default:
 				return super.onOptionsItemSelected(item);

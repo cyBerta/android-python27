@@ -23,5 +23,10 @@
         android:title="@string/logout_button"
         android:visible="false">
     </item>
+    <item
+        android:id="@+id/run_python"
+        android:title="@string/logout_button"
+        android:visible="true">
+    </item>
 
 </menu>

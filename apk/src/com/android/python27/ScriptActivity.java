@@ -29,8 +29,8 @@ import com.googlecode.android_scripting.FileUtils;
 import java.io.File;
 import java.io.InputStream;
 
+import se.leap.bitmaskclient.Dashboard;
 import android.util.Log;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -46,7 +46,9 @@ import android.widget.Toast;
 
 public class ScriptActivity extends Activity {
 	ProgressDialog myProgressDialog; 
-	  
+	 
+	public static final String run_service = "RUN_SERVICE";
+	public static final String TAG_SCRIPT_ACTIVITY = "SCRIPT_ACTIVITY";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -60,16 +62,34 @@ public class ScriptActivity extends Activity {
 		//}
 	  
 		// install needed ?
-    	boolean installNeeded = isInstallNeeded();
+		Intent prevIntent = getIntent();
+		if (prevIntent.hasExtra(ScriptActivity.run_service)){
+			Log.d(TAG_SCRIPT_ACTIVITY, "intent has run_service.");
+			runScriptService();
+			finish();
+		}
+		else{
 		
-    	if(installNeeded) {
-    	  setContentView(R.layout.install);	
-  		  new InstallAsyncTask().execute();
-    	}
-    	else {
-    	    runScriptService();
-    	    finish();
-    	}
+	    	boolean installNeeded = isInstallNeeded();
+			Log.d(TAG_SCRIPT_ACTIVITY, "intent has NOT run_service.");
+
+	    	if(installNeeded) {
+	    	  setContentView(R.layout.install);	
+				Log.d(TAG_SCRIPT_ACTIVITY, "INSTALLATION");
+
+	  		  new InstallAsyncTask().execute();
+	    	}
+	    	else {
+	    	  //  runScriptService();
+	    	 //   finish();
+				Log.d(TAG_SCRIPT_ACTIVITY, "Open Dashboard");
+
+	    		Intent intent = new Intent(this, Dashboard.class);
+	    		startActivity(intent);
+	    		finish();
+	    		
+	    	}
+		}
 
 		//onStart();
   }
@@ -123,7 +143,7 @@ public class ScriptActivity extends Activity {
 	    	// show progress dialog
 	    	sendmsg("showProgressDialog", "");
 
-	    	sendmsg("setMessageProgressDialog", "Please wait...");
+	    	sendmsg("setMessageProgressDialog", getString(R.string.install));
 	    	createOurExternalStorageRootDir();
 	
 			// Copy all resources
@@ -148,8 +168,12 @@ public class ScriptActivity extends Activity {
 		    	sendmsg("installFailed", "");
 	    	}
 	    	
-		    runScriptService();
-		    finish();
+		  //  runScriptService();
+		  //  finish();
+	    	Intent intent = new Intent(getApplicationContext(), Dashboard.class);
+	    	startActivity(intent);
+	    	finish();
+	    	
 		   }
 	   
 	  }

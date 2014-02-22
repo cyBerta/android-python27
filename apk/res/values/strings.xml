@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PythonAPK</string>
-    <string name="loading">PythonAPK running...</string>
+    <string name="app_name">Bitmask</string>
+    <string name="loading">Bitmask\'s Python is running...</string>
     
      <string name="cancel">Cancel</string>
     <string name="ok">OK</string>
@@ -142,5 +142,7 @@
     <string name="eip_cancel_connect_false">No</string>
     <string name="eip_state_not_connected">"Not running! Connection not secure!"</string>
     <string name="eip_state_connected">Connection Secure.</string>
+    <string name="run_python">Run Sample Code</string>
+    <string name="install">Please wait. Installing Python Interpreter and needed Modules for Bitmask on first use.</string>
     
 </resources>
