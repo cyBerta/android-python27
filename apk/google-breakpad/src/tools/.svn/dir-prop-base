@@ -1,6 +1,0 @@
-K 13
-svn:externals
-V 47
-gyp -r1472 http://gyp.googlecode.com/svn/trunk
-
-END
