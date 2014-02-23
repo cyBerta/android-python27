@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import java.util.Vector;
 
 import se.leap.bitmaskclient.Dashboard;
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.NotificationManager;

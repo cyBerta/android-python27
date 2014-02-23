@@ -1,6 +1,6 @@
 package se.leap.bitmaskclient;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 
 import android.app.Activity;
 import android.app.Fragment;

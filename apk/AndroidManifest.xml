@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<manifest 	package="com.android.python27"
-  			android:versionCode="1"
-  			android:versionName="1.0"
+<manifest 	package="se.leap.bitmaskclient"
+  			android:versionCode="67"
+  			android:versionName="0.4"
   			android:installLocation="internalOnly"
   			xmlns:android="http://schemas.android.com/apk/res/android">
 

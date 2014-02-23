@@ -19,7 +19,7 @@
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 import com.android.python27.ScriptActivity;
 
 import se.leap.bitmaskclient.ProviderAPIResultReceiver.Receiver;

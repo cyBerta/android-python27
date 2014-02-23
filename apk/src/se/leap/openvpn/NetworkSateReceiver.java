@@ -8,7 +8,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.NetworkInfo.State;
 import android.preference.PreferenceManager;
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 
 public class NetworkSateReceiver extends BroadcastReceiver {
 	private int lastNetwork=-1;

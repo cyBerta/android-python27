@@ -9,7 +9,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.List;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 
 public class ProxyDetection {
 	static SocketAddress detectProxy(VpnProfile vp) {

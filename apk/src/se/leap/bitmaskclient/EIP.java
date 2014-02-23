@@ -26,7 +26,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 import se.leap.openvpn.ConfigParser;
 import se.leap.openvpn.ConfigParser.ConfigParseError;
 import se.leap.openvpn.LaunchVPN;

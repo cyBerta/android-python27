@@ -25,7 +25,7 @@ import se.leap.bitmaskclient.ConfigHelper;
 import se.leap.bitmaskclient.EIP;
 import se.leap.bitmaskclient.Provider;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 
 import android.content.Context;
 import android.content.Intent;

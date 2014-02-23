@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Locale;
 import java.util.Vector;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 
 
 import android.content.Context;

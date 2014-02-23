@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 
 import android.content.Context;
 import android.content.Intent;

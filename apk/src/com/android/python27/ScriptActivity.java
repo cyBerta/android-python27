@@ -30,6 +30,7 @@ import java.io.File;
 import java.io.InputStream;
 
 import se.leap.bitmaskclient.Dashboard;
+import se.leap.bitmaskclient.R;
 import android.util.Log;
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -180,9 +181,11 @@ public class ScriptActivity extends Activity {
 	
   private void runScriptService() {
 	  if(GlobalConstants.IS_FOREGROUND_SERVICE) {
+		  Log.d(TAG_SCRIPT_ACTIVITY, "scriptService runs in foreground");
 		  startService(new Intent(this, ScriptService.class));
 	  }
 	  else {
+		  Log.d(TAG_SCRIPT_ACTIVITY, "scriptService runs in background");
 		  startService(new Intent(this, BackgroundScriptService.class)); 
 	  }
   }

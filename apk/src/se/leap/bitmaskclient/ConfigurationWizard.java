@@ -16,7 +16,7 @@
  */
  package se.leap.bitmaskclient;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 
 import java.io.IOException;
 import java.util.Iterator;

@@ -60,7 +60,7 @@ import org.jboss.security.srp.SRPParameters;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 import se.leap.bitmaskclient.ProviderListContent.ProviderItem;
 import android.app.IntentService;
 import android.content.Intent;

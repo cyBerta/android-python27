@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 
-import com.android.python27.R;
+import se.leap.bitmaskclient.R;
 
 import android.util.Log;
 import se.leap.openvpn.OpenVPN.LogItem;
